@@ -27,7 +27,7 @@ document.querySelector("#vintage").addEventListener("click", function() {
 
  document.querySelector("#slower").addEventListener("click", function() {
 	console.log("Slow Down");
-	video.playbackRate *=.9;
+	video.playbackRate *=.95;
 	console.log(video.playbackRate)
  });
 
